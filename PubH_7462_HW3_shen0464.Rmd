@@ -49,6 +49,7 @@ summary_instacart <- instacart_df %>%
 
 summary_instacart %>% 
    gt() %>%
+  tab_header("Summary Mean, Median and SD ") %>%
   as_raw_html
 ```
 
